@@ -78,8 +78,11 @@ export default function App() {
                         <option value="Africa">Afryka</option>
                         <option value="Americas">Ameryki</option>
                         <option value="Oceania">Oceania</option>
+                        <option></option>
                     </select>
                 </div>
+
+
             )}
 
             {!loading && !error && !selectedCountry && (
